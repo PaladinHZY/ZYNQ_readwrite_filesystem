@@ -1,0 +1,40 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Mar 31 20:53:52 2019
+# Process ID: 6384
+# Current directory: /home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation
+# Command line: vivado ZYNQ_File_Operation.xpr
+# Log file: /home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/vivado.log
+# Journal file: /home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project ZYNQ_File_Operation.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository '/opt/Xilinx/Vivado/2018.2/data/ip'.
+open_project: Time (s): cpu = 00:00:16 ; elapsed = 00:00:06 . Memory (MB): peak = 6217.754 ; gain = 153.918 ; free physical = 14666 ; free virtual = 53392
+update_compile_order -fileset sources_1
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+ERROR: [Vivado 12-4452] The hardware handoff file (.sysdef) does not exist. It may not have been generated due to: 
+ 1. A bitstream might not have been generated. Generate Bitstream and export again, or do not request a bitstream to be included in export.
+ 2. There are no block design hardware handoff files. Check the vivado log messages for more details. 
+write_hwdef -force  -file /home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.sdk/ZYNQ_File_Operation.hdf
+write_hwdef -force  -file /home/zhenyu/FPGA/ZYNQGit/File_WRRD/sdk/ZYNQ_File_Operation.hdf
+launch_sdk -workspace /home/zhenyu/FPGA/ZYNQGit/File_WRRD/sdk -hwspec /home/zhenyu/FPGA/ZYNQGit/File_WRRD/sdk/ZYNQ_File_Operation.hdf
+INFO: [Vivado 12-393] Launching SDK...
+INFO: [Vivado 12-417] Running xsdk -workspace /home/zhenyu/FPGA/ZYNQGit/File_WRRD/sdk -hwspec /home/zhenyu/FPGA/ZYNQGit/File_WRRD/sdk/ZYNQ_File_Operation.hdf
+INFO: [Vivado 12-3157] SDK launch initiated. Please check console for any further messages.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 31 20:56:16 2019...

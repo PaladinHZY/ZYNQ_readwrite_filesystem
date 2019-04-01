@@ -1,0 +1,44 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="ZYNQ_File_Operation_axi_uartlite_2_0_synth_1" LaunchDir="/home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_axi_uartlite_2_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_File_Operation_axi_uartlite_3_0_synth_1" LaunchDir="/home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_axi_uartlite_3_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_2_0_synth_1"/>
+	</Run>
+	<Run Id="ZYNQ_File_Operation_axi_uartlite_4_0_synth_1" LaunchDir="/home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_axi_uartlite_4_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_2_0_synth_1"/>
+	</Run>
+	<Run Id="ZYNQ_File_Operation_proc_sys_reset_0_0_synth_1" LaunchDir="/home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_proc_sys_reset_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_File_Operation_processing_system7_0_0_synth_1" LaunchDir="/home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_processing_system7_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_File_Operation_xbar_0_synth_1" LaunchDir="/home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_xbar_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="ZYNQ_File_Operation_axi_uartlite_1_0_synth_1" LaunchDir="/home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_axi_uartlite_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_2_0_synth_1"/>
+	</Run>
+	<Run Id="ZYNQ_File_Operation_axi_uartlite_0_0_synth_1" LaunchDir="/home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado" IsOrderedIPRun="true">
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_2_0_synth_1"/>
+	</Run>
+	<Run Id="ZYNQ_File_Operation_auto_pc_0_synth_1" LaunchDir="/home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_auto_pc_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="/home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_2_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_3_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_4_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_proc_sys_reset_0_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_processing_system7_0_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_xbar_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_1_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_auto_pc_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="/home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_2_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_3_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_4_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_proc_sys_reset_0_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_processing_system7_0_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_xbar_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_1_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_axi_uartlite_0_0_synth_1"/>
+		<Parent Id="ZYNQ_File_Operation_auto_pc_0_synth_1"/>
+	</Run>
+</Runs>
+

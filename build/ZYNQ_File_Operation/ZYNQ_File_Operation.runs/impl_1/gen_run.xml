@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7z020clg400-1" LaunchTime="1554081314">
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="BG-DRC" Name="ZYNQ_File_Operation.drc"/>
+  <File Type="BG-BGN" Name="ZYNQ_File_Operation.bgn"/>
+  <File Type="BITSTR-SYSDEF" Name="ZYNQ_File_Operation.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="ZYNQ_File_Operation.ltx"/>
+  <File Type="BITSTR-MMI" Name="ZYNQ_File_Operation.mmi"/>
+  <File Type="BITSTR-BMM" Name="ZYNQ_File_Operation_bd.bmm"/>
+  <File Type="BITSTR-NKY" Name="ZYNQ_File_Operation.nky"/>
+  <File Type="BITSTR-RBT" Name="ZYNQ_File_Operation.rbt"/>
+  <File Type="BITSTR-MSK" Name="ZYNQ_File_Operation.msk"/>
+  <File Type="BG-BIN" Name="ZYNQ_File_Operation.bin"/>
+  <File Type="BG-BIT" Name="ZYNQ_File_Operation.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="ZYNQ_File_Operation_bus_skew_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="ZYNQ_File_Operation_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="ZYNQ_File_Operation_bus_skew_postroute_physopted.rpt"/>
+  <File Type="RDI-RDI" Name="ZYNQ_File_Operation.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="ZYNQ_File_Operation_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="ZYNQ_File_Operation_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="ZYNQ_File_Operation_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="ZYNQ_File_Operation_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="ZYNQ_File_Operation_postroute_physopt.dcp"/>
+  <File Type="ROUTE-BUS-SKEW" Name="ZYNQ_File_Operation_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="ZYNQ_File_Operation_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-SIMILARITY" Name="ZYNQ_File_Operation_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-TIMING-RPX" Name="ZYNQ_File_Operation_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-TIMING-PB" Name="ZYNQ_File_Operation_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="ZYNQ_File_Operation_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="ZYNQ_File_Operation_route_status.pb"/>
+  <File Type="ROUTE-STATUS" Name="ZYNQ_File_Operation_route_status.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="ZYNQ_File_Operation_power_routed.rpx"/>
+  <File Type="ROUTE-PWR-SUM" Name="ZYNQ_File_Operation_power_summary_routed.pb"/>
+  <File Type="ROUTE-PWR" Name="ZYNQ_File_Operation_power_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="ZYNQ_File_Operation_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="ZYNQ_File_Operation_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="ZYNQ_File_Operation_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-RPX" Name="ZYNQ_File_Operation_drc_routed.rpx"/>
+  <File Type="ROUTE-DRC-PB" Name="ZYNQ_File_Operation_drc_routed.pb"/>
+  <File Type="ROUTE-DRC" Name="ZYNQ_File_Operation_drc_routed.rpt"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="ZYNQ_File_Operation_routed_bb.dcp"/>
+  <File Type="ROUTE-DCP" Name="ZYNQ_File_Operation_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="ZYNQ_File_Operation_routed_error.dcp"/>
+  <File Type="PHYSOPT-TIMING" Name="ZYNQ_File_Operation_timing_summary_physopted.rpt"/>
+  <File Type="PHYSOPT-DRC" Name="ZYNQ_File_Operation_drc_physopted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="ZYNQ_File_Operation_physopt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="ZYNQ_File_Operation_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="ZYNQ_File_Operation_postplace_pwropt.dcp"/>
+  <File Type="PLACE-TIMING" Name="ZYNQ_File_Operation_timing_summary_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="ZYNQ_File_Operation_incremental_reuse_pre_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="ZYNQ_File_Operation_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-CTRL" Name="ZYNQ_File_Operation_control_sets_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="ZYNQ_File_Operation_utilization_placed.pb"/>
+  <File Type="PLACE-UTIL" Name="ZYNQ_File_Operation_utilization_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="ZYNQ_File_Operation_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-IO" Name="ZYNQ_File_Operation_io_placed.rpt"/>
+  <File Type="PLACE-DCP" Name="ZYNQ_File_Operation_placed.dcp"/>
+  <File Type="PWROPT-TIMING" Name="ZYNQ_File_Operation_timing_summary_pwropted.rpt"/>
+  <File Type="PWROPT-DRC" Name="ZYNQ_File_Operation_drc_pwropted.rpt"/>
+  <File Type="PWROPT-DCP" Name="ZYNQ_File_Operation_pwropt.dcp"/>
+  <File Type="OPT-TIMING" Name="ZYNQ_File_Operation_timing_summary_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="ZYNQ_File_Operation.hwdef"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="ZYNQ_File_Operation_methodology_drc_opted.rpt"/>
+  <File Type="OPT-DRC" Name="ZYNQ_File_Operation_drc_opted.rpt"/>
+  <File Type="OPT-DCP" Name="ZYNQ_File_Operation_opt.dcp"/>
+  <File Type="INIT-TIMING" Name="ZYNQ_File_Operation_timing_summary_init.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="ZYNQ_File_Operation_bus_skew_routed.rpx"/>
+  <File Type="REPORTS-TCL" Name="ZYNQ_File_Operation_reports.tcl"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="ZYNQ_File_Operation_bus_skew_routed.pb"/>
+  <File Type="PA-TCL" Name="ZYNQ_File_Operation.tcl"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/bd/ZYNQ_File_Operation/ZYNQ_File_Operation.bd">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/imports/rtl/ZYNQ_File_Operation.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../rtl/ZYNQ_File_Operation.v"/>
+        <Attr Name="ImportTime" Val="1549578060"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="ZYNQ_File_Operation"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/imports/xdc/Constraints_File.xdc">
+      <FileInfo>
+        <Attr Name="ImportPath" Val="$PPRDIR/../../gen/xdc/Constraints_File.xdc"/>
+        <Attr Name="ImportTime" Val="1549406604"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2018"/>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_File_Operation_auto_pc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_File_Operation_axi_uartlite_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_File_Operation_axi_uartlite_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_File_Operation_axi_uartlite_2_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_File_Operation_axi_uartlite_4_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_File_Operation_axi_uartlite_3_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_File_Operation_processing_system7_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_File_Operation_proc_sys_reset_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="ZYNQ_File_Operation_xbar_0"/>
+</GenRun>

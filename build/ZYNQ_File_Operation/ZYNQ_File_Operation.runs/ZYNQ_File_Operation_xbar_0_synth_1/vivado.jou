@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.2 (64-bit)
+# SW Build 2258646 on Thu Jun 14 20:02:38 MDT 2018
+# IP Build 2256618 on Thu Jun 14 22:10:49 MDT 2018
+# Start of session at: Sun Mar 31 20:17:36 2019
+# Process ID: 18349
+# Current directory: /home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_xbar_0_synth_1
+# Command line: vivado -log ZYNQ_File_Operation_xbar_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source ZYNQ_File_Operation_xbar_0.tcl
+# Log file: /home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_xbar_0_synth_1/ZYNQ_File_Operation_xbar_0.vds
+# Journal file: /home/zhenyu/FPGA/ZYNQGit/File_WRRD/build/ZYNQ_File_Operation/ZYNQ_File_Operation.runs/ZYNQ_File_Operation_xbar_0_synth_1/vivado.jou
+#-----------------------------------------------------------
+source ZYNQ_File_Operation_xbar_0.tcl -notrace

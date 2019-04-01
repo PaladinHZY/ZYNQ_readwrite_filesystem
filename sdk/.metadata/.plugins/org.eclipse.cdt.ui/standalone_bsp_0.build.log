@@ -1,0 +1,6 @@
+20:47:28 **** Clean-only build of project standalone_bsp_0 ****
+make -k clean 
+make: *** No rule to make target 'clean'.
+
+20:47:29 Build Finished (took 260ms)
+
