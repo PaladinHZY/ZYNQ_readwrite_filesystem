@@ -2,7 +2,7 @@
  * main.h
  *
  *  Created on: Jan 23, 2019
- *      Author: Ainstein Zhenyu Hu
+ *      Author: Zhenyu Hu
  */
 
 #ifndef SRC_MAIN_H_
