@@ -1,9 +1,4 @@
-/*
- * main.c
- *
- *  Created on: Jan 23, 2019
- *      Author: Ainstein Zhenyu Hu
- */
+
 
 
 #include "unistd.h"
