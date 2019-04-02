@@ -1,9 +1,4 @@
-/*
- * SD_read.c
- *
- *  Created on: Feb 14, 2019
- *      Author: Ainstein Zhenyu Hu
- */
+
 
 #include "DDR_SD.h"
 #include "stdio.h"
