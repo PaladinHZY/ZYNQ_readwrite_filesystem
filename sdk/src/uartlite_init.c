@@ -2,7 +2,7 @@
  * uartlite_init.c
  *
  *  Created on: Jan 23, 2019
- *      Author: Ainstein Zhenyu Hu
+ *      Author: Zhenyu Hu
  */
 
 #include "main.h"
