@@ -1,9 +1,3 @@
-/*
- * DDR_SD.c
- *
- *  Created on: Jul 10, 2018
- *      Author: Ainstein Zhenyu Hu
- */
 
 
 #include "DDR_SD.h"
