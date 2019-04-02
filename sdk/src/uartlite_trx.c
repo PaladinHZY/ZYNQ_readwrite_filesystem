@@ -1,10 +1,3 @@
-/*
- * uartlite_trx.c
- *
- *  Created on: Jan 23, 2019
- *      Author: Ainstein Zhenyu Hu
- */
-
 
 #include "main.h"
 #include "xparameters.h"
