@@ -1,10 +1,3 @@
-/*
- * DDR_SD.h
- *
- *  Created on: Jul 10, 2018
- *      Author: Ainstein Zhenyu Hu
- */
-
 
 
 #include "xparameters.h"	/* SDK generated parameters */
